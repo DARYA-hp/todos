@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-135deg, #be1b51, #dbd9d9, #0572a1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+.container {
+  background-color: rgb(225, 225, 228);
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(255, 255, 255);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  max-width: 600px;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  box-shadow: 6px 6px 6px rgb(255, 255, 255);
+  color: rgb(56, 49, 49);
+  height: 15px;
+  width: 90%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+
+
+button {
+  padding: 10px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-btn {
+  background-color: #fc0aab;
+  color: #fff;
+}
+
+.add-btn:hover {
+  background-color: #f893e2;
+}
+
+.clear-btn {
+  background-color: #0877d3;
+  color: #fff;
+}
+
+.clear-btn:hover {
+  background-color: #7ac9f7;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  background-color: rgb(151, 146, 146);
+  padding: 12px 16px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item label {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.complete-btn {
+  background-color: rgb(245, 97, 153);
+  color: #fff;
+}
+
+.complete-btn:hover {
+  background-color: #f8a5d3;
+}
+
+.delete-btn {
+  background-color: #356adc;
+  color: #fff;
+  margin-left: 8px;
+}
+
+.delete-btn:hover {
+  background-color: #89bcec;
+}
+
+.todo-item.completed label {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
